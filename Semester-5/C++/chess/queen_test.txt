@@ -1,0 +1,27 @@
+pawnMove({ 1, 2 }, { 2, 2 });
+	std::cout << *this << "\n\n";
+
+	queenMove({ 0, 3 }, { 2,1 });
+	std::cout << *this << "\n";
+
+	queenMove({ 2, 1 }, { 5,1 });
+	std::cout << *this << "\n";
+
+	queenMove({ 5, 1 }, { 4,1 });
+	std::cout << *this << "\n";
+	
+	std::cout << queenMove({ 4, 1 }, { 5, 3 }) << "\n\n";
+
+	queenMove({ 4, 1 }, { 4, 4 });
+	std::cout << *this << "\n";
+
+	queenMove({ 4, 4 }, { 2,6 });
+	std::cout << *this << "\n";
+
+	queenAttack({ 2, 6 }, { 6, 2 });
+	std::cout << *this << "\n\n";
+
+	queenAttack({ 6, 2 }, { 7, 3 });
+	std::cout << *this << "\n\n";
+
+	std::cout << queenAttack({ 7, 3 }, { 7, 4 }) << "\n";

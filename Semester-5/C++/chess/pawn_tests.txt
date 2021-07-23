@@ -1,0 +1,37 @@
+	pawnMove({ 1, 2 }, { 3, 2 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	std::cout << "\n" << pawnMove({ 6, 3 }, { 5, 3 }) << "\n";
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	pawnMove({ 3,2 }, { 4, 2 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	pawnMove({ 6, 5 }, { 4, 5 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	std::cout << pawnAttack({ 4, 2 }, { 5, 3 }) << "\n";
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	pawnMove({ 4, 5 }, { 3, 5 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	pawnMove({ 1, 6 }, { 3, 6 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	
+	pawnAttack({ 3, 5 }, { 2, 6 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	
+	pawnAttack({ 5, 3 }, { 6, 2 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+
+	pawnAttack({ 2, 6 }, { 1, 7 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	
+	pawnAttack({ 6, 2 }, { 7, 1 });
+	std::cout << *this << "\n\n";
+	turn = !turn;

@@ -1,0 +1,39 @@
+	knightMove({ 0, 1 }, { 2, 2 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+
+	pawnMove({ 6, 1 }, { 4, 1 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+
+	knightAttack({ 2, 2 }, { 4,1 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+
+	pawnMove({ 6, 2 }, { 5, 2 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+
+	knightMove({ 0, 6 }, { 2, 7 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+	
+	pawnAttack({ 5, 2 }, { 4, 1 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+
+	knightMove({ 2, 7 }, { 3, 5 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+
+	knightMove({ 7, 6 }, { 5, 5 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+
+	knightMove({ 3, 5 }, { 4, 3 });
+	std::cout << *this << "\n\n";
+	turn = !turn;
+
+	knightAttack({ 5, 5 }, { 4, 3 });
+	std::cout << *this << "\n\n";
+	turn = !turn;

@@ -1,0 +1,55 @@
+pawnMove({ 1, 3 }, { 2, 3 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	std::cout << bishopMove({ 0, 2 }, { 2, 4 }) << "\n";
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 6, 7 }, { 4, 7 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	bishopMove({ 2, 4 }, { 4, 2 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	knightMove({ 7, 6 }, { 5, 5 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	bishopMove({ 4, 2 }, { 3, 1 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	knightMove({ 5, 5 }, { 3, 4 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	std::cout << bishopAttack({ 3, 1 }, { 6, 4 }) << "\n";
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	bishopAttack({ 7, 5 }, { 6, 4 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 1, 0 }, { 3, 0 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	bishopMove({ 6, 4 }, { 3, 1 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	std::cout << bishopAttack({ 3, 1 }, { 0, 4 }) << "\n";
+	turn = !turn;

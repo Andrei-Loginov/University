@@ -1,0 +1,151 @@
+pawnMove({ 1, 2 }, { 3, 2 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	std::cout << "\n" << pawnMove({ 6, 3 }, { 5, 3 }) << "\n";
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 3,2 }, { 4, 2 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 6, 5 }, { 4, 5 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	std::cout << pawnAttack({ 4, 2 }, { 5, 3 }) << "\n";
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 4, 5 }, { 3, 5 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 1, 6 }, { 3, 6 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	std::cout << pawnAttack({ 3, 5 }, { 2, 6 }) << "\n";
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 1, 0 }, { 3, 0 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 6, 1 }, { 4, 1 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnAttack({ 3, 0 }, { 4, 1 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	rookMove({ 0, 0 }, { 2, 0 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 6, 0 }, { 5, 0 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	rookMove({ 2, 0 }, { 2, 2 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	rookMove({ 2, 2 }, { 2, 0 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 6, 0 }, { 5, 0 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	rookAttack({ 2, 0 }, { 5, 0 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	rookAttack({ 7, 0 }, { 5, 0 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnAttack({ 1, 7 }, { 2, 6 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	rookAttack({ 5, 0 }, { 5, 3 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 1, 4 }, { 3, 4 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	rookMove({ 5, 3 }, { 5, 4 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	pawnMove({ 3, 4 }, { 4, 4 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	rookAttack({ 5, 4 }, { 4, 4 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	std::cout << rookAttack({ 4, 4 }, { 0,4 }) << "\n";
+	std::cout << CheckWhite << " " << CheckBlack <<"\n";
+	turn = !turn;
+
+	queenMove({ 0, 3 }, { 1, 4 });
+	std::cout << *this << "\n";
+	e_pCheck();
+	std::cout << CheckWhite << " " << CheckBlack << "\n";
+	turn = !turn;
+
+	pawnMove({ 6, 7 }, { 4, 7 });
+	std::cout << *this << "\n";
+	e_pCheck();
+	std::cout << CheckWhite << " " << CheckBlack << "\n";
+	turn = !turn;
+
+	std::cout << kingMove({ 0, 4 }, { 0, 3 }) << "\n";
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	std::cout << kingMove({ 7, 4 }, { 6, 3 }) << "\n";
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+
+	queenMove({ 1, 4 }, { 2, 3 });
+	std::cout << *this << "\n\n";
+	e_pCheck();
+	turn = !turn;
+	
+	std::cout << pawnMove({ 6, 4 }, { 5, 4 }) << "\n";
+	std::cout << kingMove({ 6, 3 }, { 7, 4 }) << "\n";
