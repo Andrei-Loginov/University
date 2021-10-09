@@ -1,0 +1,3 @@
+[submodule "function_optimization"]
+	path = function_optimization
+	url = https://github.com/Andrei-Loginov/function_optimization.git
